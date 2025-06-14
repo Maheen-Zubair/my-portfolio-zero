@@ -30,7 +30,7 @@ export default function Services(){
             <Image src={cart} alt="E-Commerce" className="invert -rotate-45 h-24 w-24" />
           </div>
           <h1 className="mb-2">E-Commerce</h1>
-          <p className="text-para text-xs pr-2 pl-3">Developing fast, scalabe, mobile-responsive e-commerce frontends using Next.js and Tailwind CSS — optimized for conversions.</p>
+          <p className="text-para text-xs pr-2 pl-3">Developing fast, scalable e-commerce frontends with Next.js & Tailwind CSS — built for mobile and optimized for conversions.</p>
         </div>
 
         {/* FRONT-END DEV */}
