@@ -37,18 +37,6 @@ export default function Project() {
              Visit Project </Link>
           </div>
 
-          <div className="container-no-2  min-w-[200px] sm:min-w-[250px] md:min-w-[300px] h-60 bg-black rounded-xl p-4 cursor-pointer shadow drop-shadow-2xl shadow-black">
-            <h3 className="text-md sm:text-xl font-semibold text-customGray5">Resume Generator</h3>
-            <Link href={"https://resume-generator-m-5-9ydkrbefy-maheen-zubairs-projects.vercel.app"} target="_blank" className="block mt-2 text-white  hover:underline">
-            <Image
-              src={image2}
-              alt="image"
-              sizes="fit"
-              className=" w-{60%} h-28 bg-customGray mt-2 rounded-md " />
-
-             Visit Project </Link>
-          </div>
-
           <div className="container-no-3  min-w-[200px] sm:min-w-[250px] md:min-w-[300px] h-60 bg-black rounded-xl p-4 cursor-pointer  shadow drop-shadow-2xl shadow-black">
             <h3 className="text-md sm:text-xl font-semibold text-customGray5">Smoothie Website</h3>
             <Link href={"https://ass5-smoothies-1klq-en7xwf7gk-maheen-zubairs-projects.vercel.app"} target="_blank" className="block mt-2 text-white  hover:underline">
@@ -72,6 +60,19 @@ export default function Project() {
 
              Visit Project </Link>
           </div>
+
+          <div className="container-no-2  min-w-[200px] sm:min-w-[250px] md:min-w-[300px] h-60 bg-black rounded-xl p-4 cursor-pointer shadow drop-shadow-2xl shadow-black">
+            <h3 className="text-md sm:text-xl font-semibold text-customGray5">Resume Generator</h3>
+            <Link href={"https://resume-generator-m-5-9ydkrbefy-maheen-zubairs-projects.vercel.app"} target="_blank" className="block mt-2 text-white  hover:underline">
+            <Image
+              src={image2}
+              alt="image"
+              sizes="fit"
+              className=" w-{60%} h-28 bg-customGray mt-2 rounded-md " />
+
+             Visit Project </Link>
+          </div>
+          
         </div>
       </div>
     </div>
