@@ -28,15 +28,15 @@ export default function Home() {
  {/*home page*/}  
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white">
         <div className=" text-5xl sm:text-6xl font-sens text-center ">
-         <div className="flex flex-col gap-3 font-thin"> Welcome!<br /><strong >I am</strong> 
-           </div> <span className="text-orange-400 "><strong>front-end Developer</strong></span>
+         <div className="flex flex-col gap-3 font-thin "> Welcome!<br /><strong >I am</strong> 
+           </div> <span className="text-orange-400 tracking-in-expand "><strong>front-end Developer</strong></span>
         </div>
 
           <div className="flex space-x-4 mt-8">
-          <button className="bg-transparent hover:bg-white text-white hover:text-orange-400 border border[2px] rounded-3xl py-3 px-5  transition duration-300 ">
+          <button className=" fancy-button ">
           <Link href={"#Projects"}>View Work</Link>
           </button>
-            <button className="bg-transparent hover:bg-white text-white hover:text-orange-400 border border[2px] rounded-3xl py-3 px-5  transition duration-300 "><Link href={"#Contact"} >
+            <button className=" fancy-button "><Link href={"#Contact"} >
             Contact Me!</Link>
           </button>
         </div>
