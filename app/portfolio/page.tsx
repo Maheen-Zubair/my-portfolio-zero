@@ -128,8 +128,8 @@ export default function Portfolio() {
               ></div>
             </div>
 
-            <h1 className="mt-4">Python</h1>
-            <div className="w-[280px] bg-gray-300 rounded-full h-3 overflow-hidden">
+            <h1 className="mt-4 ">Python</h1>
+            <div className="w-[280px] bg-gray-300  mb-8 rounded-full h-3 overflow-hidden">
               <div
                 ref={nextRef}
                 className="bg-orange-400 h-3 rounded-full"
